@@ -143,16 +143,17 @@ footer{
 }
 .social{
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 53%;
+    top: 60%;
     transform: translate(-50%,-50%);
 }
-
 .social .icon{
     float: left;
-    margin-right: 80px;
-    
+    margin-right: 100px;
 }
-.social .icon  img{
-    width: 30px;
+.social .icon  .fab{
+    font-size: 50px;
+}
+.social .icon .fab:hover{
+    color:red;
 }
